@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -187,6 +189,12 @@ td,
 th {
   padding: 0;
 }
+
+.devicon {
+  width: 75px;
+  height: 75px;
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -260,6 +268,8 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 
