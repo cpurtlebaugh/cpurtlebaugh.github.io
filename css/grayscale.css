@@ -308,8 +308,54 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
+/*developer icon styling */
 .devicon {
-  width: 60px;
-  height: 60px;
+  width: 80%%;
+  height: 80%%;
 }
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  padding: 75px;
+}
+
+#f1_container {
+  perspective: 1000;
+}
+
+#f1_card {
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  backface-visibility: hidden;
+}
+
+.face.back {
+  /*display: block;*/
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 20px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  /*opacity: .7;*/
+}
+
+
 
