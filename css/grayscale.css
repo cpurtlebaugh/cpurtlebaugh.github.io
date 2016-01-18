@@ -364,5 +364,9 @@ body {
 
 /*end developer icon styling*/
 
+/*carousel styling*/
+.lazy {
+  width: 50%;
+}
 
 
