@@ -213,14 +213,14 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 .projects-section {
   width: 100%;
-  padding: 50px 0;
+  /*padding: 50px 0;*/
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+  background-color: grey;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -233,10 +233,10 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 100px;
+    padding-top: 70px;
   }
   .projects-section {
-    padding: 100px 0;
+    padding-top: 40px;
   }
   #map {
     height: 400px;
@@ -322,7 +322,6 @@ body {
   z-index: 1;
   padding-right: 75px;
   padding-left: 75px;
-  /*padding-top: 40px;*/
   padding-bottom: 50px;
 }
 
@@ -369,8 +368,8 @@ body {
 
 
 .single-item {
-  width: 75%;
-  height: 75%;
+  width: 65%;
+  height: 65%;
 }
 
 .single-item img {
@@ -381,19 +380,33 @@ body {
 
 .project-text{
   font-size: 16px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.tech-text{
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .fa {
   padding-right: 2%;
 }
 
-.project-text a:hover {
+.project-title a:hover {
  color: #42DCA3;
 }
 
-.project-text a {
+.project-title a {
   color: white;
 }
 
+/*end carousel styling*/
