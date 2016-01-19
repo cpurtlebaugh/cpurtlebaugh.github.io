@@ -117,3 +117,13 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-arrow {
+    color: black;
+}
+
+.slick-next {
+
+}
+
+.slick-prev {}

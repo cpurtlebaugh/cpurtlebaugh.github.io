@@ -316,6 +316,13 @@ body {
 .single-item img {
   max-width: 100%;
   max-height: 100%;
+  position: relative;
+}
+
+.project-text{
+  font-size: 16px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 /*developer icon styling */
