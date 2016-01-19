@@ -29,5 +29,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// clear spans from carousel
+$(function() {
+
+    $(".project-text")
+        .wrapInner("<span>")
+
+    $("project-text br")
+        .before("<span class='spacer'>")
+        .after("<span class='spacer'>");
+
+});
+
 
 
