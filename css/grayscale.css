@@ -358,6 +358,10 @@ body {
   background-color: black;
 }
 
+.bottom-row {
+  padding-bottom: 100px;
+}
+
 /*end developer icon styling*/
 
 /*custom caurousel styling*/
@@ -410,3 +414,15 @@ body {
 }
 
 /*end carousel styling*/
+
+#cf6_image {
+  margin:0 auto;
+  width:450px;
+  height:281px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("/img/castifi-about.png");
+}
+
+#cf6_image:hover {
+  background-image:url("/img/castifi-about.png");
+}
