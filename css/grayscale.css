@@ -362,6 +362,20 @@ body {
   padding-bottom: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  #skill_container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: block;
+  }
+.devicon {
+  max-width: 50%;
+  max-height: 50%;
+  }
+}
+
 /*end developer icon styling*/
 
 /*custom caurousel styling*/
@@ -444,18 +458,18 @@ body {
   transition: all 1.0s linear;
 }
 
-#project_container:hover #f1_card {
+#project_container:hover #project_card {
   transform: rotateY(180deg);
 }
 
-.face {
+.project_face {
   position: absolute;
   width: 100px;
   height: 100px;
   backface-visibility: hidden;
 }
 
-.face.back {
+.project_face.project_back {
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
@@ -466,8 +480,27 @@ body {
   background-color: black;
 }
 
-.bottom-row {
-  padding-bottom: 100px;
+/*end project styling*/
+
+.test { position: relative; display: inline-block }
+
+.test .test-image {
+    width: 500px;
+    height: 500px;
 }
 
-/*end project styling*/
+.test .test-h {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background: black;
+    color: #fff;
+  }
+
+.test:hover .test-h {
+  display: block;
+};
