@@ -62,7 +62,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand .navbar-toggle {
-  padding: 4px 6px;
+  padding: 4px 4px;
   font-size: 16px;
   color: white;
 }
@@ -215,7 +215,7 @@ a:focus {
 }
 .content-section {
   width: 100%;
-  padding-bottom: 50px 0;
+  padding: 50px 0;
   color: white;
   background-color: black;
   -webkit-background-size: cover;
@@ -310,13 +310,13 @@ body {
 
 /*developer icon styling */
 .devicon {
-  width: 80%%;
-  height: 80%%;
+  width: 80%;
+  height: 80%;
 }
 
 #skill_container {
   position: relative;
-  margin: 10px auto;
+  /*margin: 10px auto;*/
   width: 100px;
   height: 100px;
   z-index: 1;
@@ -351,7 +351,7 @@ body {
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px;
   color: white;
   line-height: 50px;
   text-align: center;
@@ -361,6 +361,7 @@ body {
 .bottom-row {
   padding-bottom: 100px;
 }
+
 
 @media screen and (max-width: 768px) {
   #skill_container {
@@ -378,129 +379,10 @@ body {
 
 /*end developer icon styling*/
 
-/*custom caurousel styling*/
-.carousel-image {
-   position: relative;
-   width: 100%; /* for IE 6 */
+/*new carousel*/
+.carousel-slide{
+  height: 60%;
 }
 
 
-.single-item {
-  width: 70%;
-  height: 50%;
-}
 
-.single-item img {
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-}
-
-.project-text{
-  font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 20px;
-}
-
-.project-title {
-  font-size: 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 10px;
-}
-
-.tech-text{
-  font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.fa {
-  padding-right: 2%;
-}
-
-.project-title a:hover {
- color: #42DCA3;
-}
-
-.project-title a {
-  color: white;
-}
-
-/*end carousel styling*/
-
-/*project styling*/
-
-.project {
-  max-height: 500px;
-  max-width: 500px;
-}
-
-#project_container {
-  position: relative;
-  margin: 10px auto;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  padding-right: 75px;
-  padding-left: 75px;
-  padding-bottom: 50px;
-}
-
-#project_container {
-  perspective: 1000;
-}
-
-#project_card {
-  width: 50px;
-  height: 50px;
-  transform-style: preserve-3d;
-  transition: all 1.0s linear;
-}
-
-#project_container:hover #project_card {
-  transform: rotateY(180deg);
-}
-
-.project_face {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  backface-visibility: hidden;
-}
-
-.project_face.project_back {
-  display: block;
-  transform: rotateY(180deg);
-  box-sizing: border-box;
-  padding: 20px;
-  color: white;
-  line-height: 50px;
-  text-align: center;
-  background-color: black;
-}
-
-/*end project styling*/
-
-.test { position: relative; display: inline-block }
-
-.test .test-image {
-    width: 500px;
-    height: 500px;
-}
-
-.test .test-h {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    background: black;
-    color: #fff;
-  }
-
-.test:hover .test-h {
-  display: block;
-};
