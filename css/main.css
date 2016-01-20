@@ -120,7 +120,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url("img/gradient.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -380,9 +380,22 @@ body {
 /*end developer icon styling*/
 
 /*new carousel*/
-.carousel-slide{
-  height: 60%;
+#myCarousel a {
+  color: white;
+  font-weight: bold;
+  max-height: 500px;
 }
 
+#myCarousel a:hover {
+  color: #42DCA3;
+}
+/*
+.img-responsive {
+  max-height: 50%;
+}
+*/
+.carousel-inner img {
+  opacity: .50;
+}
 
 

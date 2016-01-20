@@ -6244,6 +6244,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  max-height: 50%;
 }
 .carousel-inner {
   position: relative;
@@ -6260,6 +6261,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  margin: 0 auto;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
@@ -6427,7 +6429,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 25%;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
