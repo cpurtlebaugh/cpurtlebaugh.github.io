@@ -375,10 +375,13 @@ body {
   .devicon {
     max-width: 40%;
     max-height: 40%;
-    }
-  .skill_face.skill_back {
-    color: transparent;
   }
+  .skill_back {
+    display: none;
+  }
+  .skill_face.skill_back {
+    display: none;
+   }
   #skill_container:hover #skill_card {
     transform: none !important;
   }
