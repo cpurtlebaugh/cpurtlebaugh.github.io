@@ -1,2 +1,4 @@
 .notes
 .DS_store
+.publish
+/dist
