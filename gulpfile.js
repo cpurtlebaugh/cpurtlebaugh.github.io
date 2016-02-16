@@ -1,15 +1,16 @@
 // Include gulp
-var gulp = require('gulp');
-var gutil = require('gulp-util');
+var gulp       = require('gulp');
+var gutil      = require('gulp-util');
 
 // Include Plugins
-var jshint = require('gulp-jshint');
-var minifyCss = require('gulp-minify-css');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
+var jshint     = require('gulp-jshint');
+var minifyCss  = require('gulp-minify-css');
+var concat     = require('gulp-concat');
+var uglify     = require('gulp-uglify');
+var rename     = require('gulp-rename');
 var livereload = require('gulp-livereload');
-var deploy = require('gulp-gh-pages');
+var deploy     = require('gulp-gh-pages');
+
 
 // create a default task and just log a message
 gulp.task('default', function() {
@@ -54,9 +55,10 @@ gulp.task('minify-css', function() {
     .pipe(gulp.dest('dist'));
 });
 
+
 // Deploy dist to GH pages
 gulp.task('deploy', function () {
-  return gulp.src("./dist/**/*")
+  return gulp.src("dist/**/*")
     .pipe(deploy())
 });
 
