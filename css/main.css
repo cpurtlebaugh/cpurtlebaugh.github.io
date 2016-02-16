@@ -321,8 +321,8 @@ body {
 #skill_container {
   position: relative;
   margin: 10px auto;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   z-index: 1;
   padding-bottom: 50px;
   display: block;
@@ -333,8 +333,8 @@ body {
 }
 
 #skill_card {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   transform-style: preserve-3d;
   transition: all 1.0s linear;
 }
@@ -345,8 +345,8 @@ body {
 
 .skill_face {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   backface-visibility: hidden;
 }
 
