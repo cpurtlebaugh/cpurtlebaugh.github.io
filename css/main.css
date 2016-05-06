@@ -361,10 +361,10 @@ body {
   background-color: black;
 }
 
-.bottom-row {
+/*.bottom-row {
   padding-bottom: 30%;
 }
-
+*/
 
 @media screen and (max-width: 768px) {
   #skill_container {
@@ -428,6 +428,13 @@ body {
   }
   .carousel-caption h2 {
     font-size: 14px;
+  }
+
+  #about {
+    font-size: 18px;
+  }
+  .navbar-toggle {
+    padding: 9px 16px;
   }
 }
 
