@@ -5,11 +5,17 @@ const browserSync = require('browser-sync').create();
 const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
+const ghPages = require('gulp-gh-pages');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
 var dev = true;
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.css')
